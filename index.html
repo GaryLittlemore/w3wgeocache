@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Three Word Trails — find geocaches by what3words</title>
+  <meta name="description" content="Browse and submit geocaches listed by their what3words address. No app, no API — just a shared list." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="index.html"><span class="slashes">///</span>Three Word Trails</a>
+      <nav class="site-nav">
+        <a href="index.html">Browse</a>
+        <a href="submit.html">Add a cache</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Find what's hidden nearby.</h1>
+      <p class="lede">Every cache on this list is marked with a what3words address — three words, one 3&nbsp;metre square, no coordinates to fumble with.</p>
+
+      <div class="field-box">
+        <div class="row">
+          <div style="flex:1 1 260px;">
+            <label for="search-input">Search</label>
+            <input type="search" id="search-input" placeholder="Try a place, a word, or part of a ///address" />
+          </div>
+          <div>
+            <label for="area-select">Area</label>
+            <select id="area-select">
+              <option value="all">All areas</option>
+            </select>
+          </div>
+        </div>
+        <div class="chip-row" role="group" aria-label="Filter by difficulty">
+          <button class="chip" data-difficulty="all" aria-pressed="true">All difficulties</button>
+          <button class="chip" data-difficulty="easy" aria-pressed="false">Easy</button>
+          <button class="chip" data-difficulty="medium" aria-pressed="false">Medium</button>
+          <button class="chip" data-difficulty="hard" aria-pressed="false">Hard</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div class="results-bar">
+      <span id="results-count">Loading caches…</span>
+      <span>Sorted by date added</span>
+    </div>
+
+    <div class="cache-grid" id="cache-grid">
+      <!-- Cards are rendered here by js/app.js -->
+    </div>
+  </main>
+
+  <section class="cta-banner">
+    <div class="wrap">
+      <h2>Found a good spot?</h2>
+      <p>List your own cache with its what3words address.</p>
+      <a class="button" href="submit.html">Add a cache</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      Built with what3words addresses, listed as plain text. Not affiliated with What3Words Ltd.
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
