@@ -5,9 +5,9 @@
     "area": "Winsford, Cheshire",
     "w3w": ["drill", "novelists", "churn"],
     "difficulty": "easy",
-    "size": "small",
-    "description": "Small plastic tub that should be easy to spot.",
-    "hint": "A IKEA green tub.",
+    "size": "micro",
+    "description": "Small NFC disc tag holding our logo.",
+    "hint": "A little white NFC disc.",
     "submittedBy": "Gary",
     "dateAdded": "2026-07-13"
   }
