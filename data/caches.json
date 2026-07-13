@@ -1,38 +1,14 @@
 [
   {
-    "id": "old-lockgate-lookout",
-    "title": "Old Lockgate Lookout",
-    "area": "Runcorn, Cheshire",
-    "w3w": ["bridge", "otter", "cinema"],
-    "difficulty": "Easy",
-    "size": "Small",
-    "description": "Tucked beside the old canal lock gate with a good view over the water. A quick find, good for a first-timer.",
-    "hint": "Check behind the lower hinge, not inside the beam.",
+    "id": "first-w3w-geocache",
+    "title": "First W3W GeoCache",
+    "area": "Winsford, Cheshire",
+    "w3w": ["variances", "hissing", "takes"],
+    "difficulty": "easy",
+    "size": "small",
+    "description": "Small plastic tub that should be easy to spot.",
+    "hint": "A IKEA green tub.",
     "submittedBy": "Gary",
-    "dateAdded": "2026-06-02"
-  },
-  {
-    "id": "sandstone-ridge-cache",
-    "title": "Sandstone Ridge Cache",
-    "area": "Frodsham Hill, Cheshire",
-    "w3w": ["ridge", "lantern", "acorns"],
-    "difficulty": "Medium",
-    "size": "Micro",
-    "description": "Along the ridge path with a view across the Mersey. Bring boots, the last stretch gets muddy after rain.",
-    "hint": "Base of the third waymarker post from the gate.",
-    "submittedBy": "Gary",
-    "dateAdded": "2026-06-14"
-  },
-  {
-    "id": "pierhead-puzzle",
-    "title": "Pierhead Puzzle",
-    "area": "Liverpool Waterfront",
-    "w3w": ["ferry", "compass", "violin"],
-    "difficulty": "Hard",
-    "size": "Micro",
-    "description": "A multi-stage cache. The listed address gets you to the start point, not the cache itself, work out the rest from there.",
-    "hint": "The first clue is engraved, not printed.",
-    "submittedBy": "Gary",
-    "dateAdded": "2026-07-01"
+    "dateAdded": "2026-07-13"
   }
 ]
