@@ -6,7 +6,7 @@
     "w3w": ["drill", "novelists", "churn"],
     "difficulty": "easy",
     "size": "micro",
-    "description": "Small NFC disc tag holding our logo.",
+    "description": "Small NFC disc tag holding our logo. Scan the tag, see the logo.",
     "hint": "A little white NFC disc.",
     "submittedBy": "Gary",
     "dateAdded": "2026-07-13"
