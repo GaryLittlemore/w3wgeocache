@@ -257,9 +257,9 @@ a:hover { color: var(--blaze); }
 }
 
 .w3w span:last-child { border-right: none; }
-.w3w span:nth-child(1) { background: var(--moss-tint); color: var(--moss); }
+.w3w span:nth-child(1) { background: var(--gold-tint); color: var(--gold); }
 .w3w span:nth-child(2) { background: var(--gold-tint); color: var(--gold); }
-.w3w span:nth-child(3) { background: #f4e3dc; color: var(--blaze-dark); }
+.w3w span:nth-child(3) { background: var(--gold-tint); color: var(--gold); }
 
 .cache-card p.desc {
   margin: 0;
