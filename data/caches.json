@@ -22,5 +22,17 @@
     "hint": "End post, magnetic.",
     "submittedBy": "lemonydogs",
     "dateAdded": "2026-07-17"
+  },
+  {
+    "id": "stumped",
+    "title": "Stumped",
+    "area": "Winsford, Cheshire",
+    "w3w": ["flank", "hides", "crazy"],
+    "difficulty": "easy",
+    "size": "small",
+    "description": "Located along the Whitegate Way, the cache itself is a small geocaching box in a waterproof bag.",
+    "hint": "Ivy covered tree stump.",
+    "submittedBy": "Weedalls",
+    "dateAdded": "2026-07-17"
   }
 ]
