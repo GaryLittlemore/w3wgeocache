@@ -10,5 +10,17 @@
     "hint": "A little white NFC disc holding our logo.",
     "submittedBy": "Gary",
     "dateAdded": "2026-07-13"
+  },
+  {
+    "id": "sidetracked",
+    "title": "Sidetracked - Winsford",
+    "area": "Winsford, Cheshire",
+    "w3w": ["motoring", "domain", "twitches"],
+    "difficulty": "easy",
+    "size": "micro",
+    "description": "Sidetracked - Winsford Station.",
+    "hint": "End post, magnetic.",
+    "submittedBy": "lemonydogs",
+    "dateAdded": "2026-07-17"
   }
 ]
